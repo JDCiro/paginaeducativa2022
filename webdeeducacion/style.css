@@ -1,0 +1,309 @@
+@media  (min-width: 480px) and (max-width: 767px){
+
+  .seccion1 iframe{
+    overflow: hidden;
+    padding: bottom 400px; /* Adecua este valor para controlar la altura del video */
+    position:relative;
+    height:0;
+  }
+    .seccion2{
+     background-color: rgb(31, 45, 45);
+    }
+    .seccion3{
+     background-color:rgb(31, 45, 45);
+    }
+    .headerbuscar{
+        margin-right: 11%;
+        display: flex;
+        padding-left: 2%;
+        padding-right: 10%;
+    }
+
+    #tituloprincipal{
+        height: 10vh;
+       font-style: inherit;
+       text-decoration: overline;
+       text-align: start
+       
+      
+    }
+   
+    .headernav {
+     margin-right: 45%;
+     transform-style: flat;
+     background-image: url(https://okdiario.com/img/2020/11/02/la-nasa-comparte-los-sonidos-mas-siniestros-de-las-profundidades-del-espacio-655x368.jpg);
+     background-image: none;
+     text-decoration: overline;
+    }
+    .headernav a{
+     width: 100%;
+     padding-left: 20%;
+ }
+
+}
+
+@media  (min-width: 768px) and (max-width: 1024px){
+  
+   .seccion2{
+    background-color: rgb(31, 45, 45);
+   }
+   .seccion3{
+    background-color:rgb(31, 45, 45);
+   }
+   .headernav {
+    margin-right: 20%;
+    transform-style: flat;
+    background-image: url(https://okdiario.com/img/2020/11/02/la-nasa-comparte-los-sonidos-mas-siniestros-de-las-profundidades-del-espacio-655x368.jpg);
+    background-image: none;
+    text-decoration: overline;
+  
+   }
+   .headernav a{
+    width: 100%;
+    padding-left: 10%;
+}
+.headerbuscar{
+    margin-right: 11%;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 10%;
+}
+
+#tituloprincipal{
+    height: 10vh;
+   font-style: inherit;
+   text-decoration: overline;
+   text-align: start
+   
+
+}
+}
+@media  (min-width: 1024px) {
+  
+    .seccion2{
+     background-color: rgb(31, 45, 45);
+    }
+    .seccion3{
+     background-color:rgb(31, 45, 45);
+    }
+    .headernav {
+     margin-right: 15%;
+     transform-style: flat;
+     background-image: url(https://okdiario.com/img/2020/11/02/la-nasa-comparte-los-sonidos-mas-siniestros-de-las-profundidades-del-espacio-655x368.jpg);
+     background-image: none;
+     text-decoration: overline;
+   
+    }
+    .headernav a{
+     width: 100%;
+     padding-left: 10%;
+ }
+ .headerbuscar{
+    margin-right: 11%;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 10%;
+}
+
+#tituloprincipal{
+    
+   text-decoration: overline;
+}
+}
+
+body{
+    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(119, 150, 231, 0.998);
+    font-family: 'Roboto', sans-serif,'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 2%;
+    background-image: url(https://okdiario.com/img/2020/11/02/la-nasa-comparte-los-sonidos-mas-siniestros-de-las-profundidades-del-espacio-655x368.jpg);
+    
+
+}
+ header{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 61, 225);
+    background-image: url(https://img.freepik.com/vector-gratis/patron-espacio-transparente-color_102902-2360.jpg?w=996&t=st=1666752701~exp=1666753301~hmac=88b7215ffcfa6b679d3aa603ea869cdd8a9cc0971e16300b34faf83496ef8d6b);
+    
+}
+
+ 
+.headerbuscar{
+    width: 15%;
+    height: 100%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 0px;
+    background-color: rgb(65, 175, 239);
+}
+.headerbuscar:hover{
+    background-color: rgb(81, 189, 215);
+
+}
+.headernav{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+.headernav a:hover{
+    background-color: rgb(241, 0, 0);
+}
+.headernav a{
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+.paginaname{
+    position: relative;
+}
+#tituloprincipal{
+    top: 10%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 253, 255);
+    font-size: 2.6rem;
+    text-transform: uppercase;
+}
+.paginaname img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.seccion1{
+   position: relative;
+   top: 10%;
+}
+
+#subtitulo1{
+    top: 20%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 253, 255);
+    font-size: 2rem;
+    text-transform: uppercase;
+   
+}
+
+
+.seccion1 iframe{
+    overflow-y: visible;
+    position: relative;
+    height: 450px;
+   width: 100%;
+
+    
+}
+.seccion2 {
+   text-decoration: overline;
+   text-align-last: center;
+   font-size: 2rem;
+}
+#subtitulo2{
+    font-size: 1.9rem;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    
+    
+}
+.texto{
+    font-size: x-large;  
+    color: rgb(255, 255, 255);
+    text-align: start;
+    justify-content: space-between;
+    
+}
+#imagen{
+    padding: auto;
+    width: 80%;
+    margin: 5%;
+   display: flexbox;
+}
+.seccion3 {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+#subtitulo3{
+    font-size: 1.9rem;
+    color: rgb(255, 255, 255);
+    
+   
+}
+.texto2{
+    font-size: x-large;  
+    color: rgb(255, 255, 255);
+   
+}
+.opiniones{
+    font-size: 2.5rem;
+    justify-content: center;
+}
+.opciones{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    padding: 2%;
+}
+
+#comentar{
+    padding: 0%;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+   
+}
+
+.opciones input{
+    font-size: 1rem;
+    width: 8%;
+    background-color: rgb(65, 119, 235);
+    display: flexbox;
+}
+.opciones input:hover{
+    color: rgb(255, 6, 6);
+}
+
+.tabla{
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.tabla input{
+    font-size: 1rem;
+    width: 8%;
+    background-color: rgb(65, 119, 235);
+    display: flexbox;
+}
+
+.tabla input:hover{
+    color: rgb(255, 6, 6);
+
+}
+
+@media(min-width: 350px){
+
+    body{
+     flex-direction: row;
+    }
+}
